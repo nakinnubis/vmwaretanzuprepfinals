@@ -6,8 +6,9 @@ import java.util.stream.IntStream;
 
 public class Solution {
     public static void main(String[] args) {
-       var nums = new int[] {0,1};
-       missingNumber(nums);
+       var nums = new int[] {5,7,11,13};
+      var result = missingNumber(nums);
+        System.out.println(result);
     }
     public static int missingNumber(int[] nums) {
         int n  = nums.length;
